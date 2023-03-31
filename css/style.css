@@ -125,6 +125,64 @@ text-align: center;
 margin-top: 1rem;
 }
 
+/* works */
+
+.works{
+max-width: 900px;
+margin: 120px auto o;
+}
+
+.work-list{
+margin-top: 60px;
+
+}
+
+.work-item{
+display: flex;
+
+gap: 0 50px;
+margin-top: 45px;
+
+}
+
+.work-item.reverse{
+flex-direction: row-reverse;
+}
+
+.work-image{
+width: 50%;
+}
+
+.work-image img{
+width:100%;
+}
+
+
+.work-text{
+margin-top: 2rem;
+width: 50%;
+}
+
+.work-title{
+
+}
+
+.work-skill{
+
+}
+
+
+.work-time{
+
+
+}
+
+.work-desc{
+margin-top: 1rem;
+}
+
+
+/* footer */
 .footer{
 background-color: #ddd;
 padding: 30px 0 10px;
