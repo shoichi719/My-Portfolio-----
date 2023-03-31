@@ -3,9 +3,25 @@ a{
     text-decoration: none;
 }
 
+.cmn-title{
+text-align: center;
+font-weight: bold;
+}
+
+.sub-title{
+display: block;
+color: #38b6ff;
+}
+
+.main-title{
+display: block;
+font-size: 2rem;
+}
+
 .header{
 display: flex;
 justify-content: space-between;
+align-items: center;
 max-width: 1024px;
 margin: 0 auto;
 height: 80px;
@@ -25,6 +41,56 @@ height: 80px;
 margin-left: 2.5rem;
 font-size: 1.2rem;
 }
+.about{
+max-width: 800px;
+margin: 120px 0 auto;
+
+}
+
+
+.about-wrapper{
+display: flex;
+margin-top: 60px;
+}
+
+.about-image{
+
+
+}
+
+.about-text{
+margin-left: 80px;
+
+}
+
+.about-greeting{
+
+}
+
+.about-subtitle{
+font-size: 1.5rem;
+color: #38b6ff;
+margin-bottom: 0.5rem
+}
+
+.greeting-desc{
+
+
+}
+
+.about-career{
+
+}
+
+.career-list{
+
+
+}
+
+.career-item{
+
+
+}
 
 .footer{
 background-color: #ddd;
@@ -32,7 +98,7 @@ padding: 30px 0 10px;
 }
 
 .footer-list{
-display:flex;
+display: flex;
 justify-content: space-between;
 max-width: 400px;
 margin: 0 auto;
