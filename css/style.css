@@ -125,8 +125,8 @@ text-align: center;
 margin-top: 1rem;
 }
 
-/* works */
 
+/* works */
 .works{
 max-width: 900px;
 margin: 120px auto o;
@@ -179,6 +179,39 @@ width: 50%;
 
 .work-desc{
 margin-top: 1rem;
+}
+
+
+
+/* contact */
+.contact{
+margin: 120px;
+text-align: center;
+}
+
+.contact-text{
+margin: 60px;
+
+}
+
+.contact-message{
+
+
+}
+
+.contact-mail{
+font-size: 2rem;
+font-weight: bold;
+}
+
+.icon-area{
+margin-top: 30px;
+
+}
+
+.icon-area .fab{
+font-size: 2rem;
+margin: 0 1rem;
 }
 
 
