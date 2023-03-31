@@ -79,7 +79,7 @@ margin-bottom: 0.5rem
 }
 
 .about-career{
-
+margin-top: 30px;
 }
 
 .career-list{
@@ -90,6 +90,39 @@ margin-bottom: 0.5rem
 .career-item{
 
 
+}
+
+
+
+/* .skills */
+.skills{
+max-width: 1024px;
+margin: 120px auto 0;
+}
+
+.skill-list{
+margin-top: 60px;
+display: flex;
+gap: 0 20px;
+}
+
+.skill-item{
+
+
+}
+
+.skill-image{
+height: 180px;
+text-align: center;
+}
+
+.skill-name{
+font-size: 1.5rem;
+font-weight: bold;
+text-align: center;
+}
+.skill-desc{
+margin-top: 1rem;
 }
 
 .footer{
