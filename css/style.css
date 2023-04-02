@@ -48,7 +48,7 @@ font-size: 1.2rem;
 .firstview{
 background-image: url(../image/hero.jpg);
 background-size: cover;
-background-posion: center;
+background-position: center;
 height: 700px;
 }
 
@@ -67,7 +67,10 @@ letter-spacing: 0.5rem;
 }
 
 
+
 /* about */
+
+
 .about{
 max-width: 800px;
 margin: 120px 0 auto;
@@ -236,7 +239,7 @@ margin-top: 30px;
 
 }
 
-.icon-area .fab{
+.icon-area .fa-brands{
 font-size: 2rem;
 margin: 0 1rem;
 }
