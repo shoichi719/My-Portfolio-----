@@ -1,3 +1,30 @@
+/* 768以下の時（スマホサイズの時） */
+.test{
+    font-size: 20px;
+    height: 200px;
+    background-color: yellow;
+}
+@media screen and (min-width:768px){
+    /* 768以上の時（タブレットサイズの時） */
+    .test{
+        font-size:40px;
+        height: 400px;
+        background-color: greenyellow;
+    }
+    /* タブレットのサイズ768~1024px */
+}
+
+@media screen and (min-width:1025px){
+    /* 1025以上の時（pcサイズの時) */
+    .test{
+        font-size:60px;
+        height: 600px;
+        background-color: green;
+    }
+}
+
+
+
 a{
     color: #333;
     text-decoration: none;
@@ -242,7 +269,9 @@ margin-top: 30px;
 .icon-area .fa-brands{
 font-size: 2rem;
 margin: 0 1rem;
+
 }
+
 
 
 /* footer */
