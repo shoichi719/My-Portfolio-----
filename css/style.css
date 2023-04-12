@@ -221,34 +221,22 @@ margin: 120px auto o;
 
 .work-list{
 margin-top: 60px;
-
+justify-content: center;
 }
 
-.work-item{
-display: flex;
 
-gap: 0 50px;
-margin-top: 45px;
-
-}
 
 .work-item.reverse{
 flex-direction: row-reverse;
 }
 
-.work-image{
-width: 50%;
-}
+
 
 .work-image img{
 width:100%;
 }
 
 
-.work-text{
-margin-top: 2rem;
-width: 50%;
-}
 
 .work-title{
 
@@ -267,7 +255,22 @@ width: 50%;
 .work-desc{
 margin-top: 1rem;
 }
+@media screen and (min-width: 768px){
+    .work-item{
+        display: flex;
+        
+        gap: 0 50px;
+        
+        }
 
+        .work-image{
+            width: 50%;
+            }
+.work-text{
+    margin-top: 2rem;
+    width: 50%;
+    }
+}
 
 
 /* contact */
@@ -307,7 +310,7 @@ margin: 0 1rem;
 /* footer */
 .footer{
 background-color: #ddd;
-padding: 30px 0 10px;
+padding: 30px 16px 10px;
 }
 
 .footer-list{
