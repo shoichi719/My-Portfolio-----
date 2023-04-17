@@ -104,8 +104,9 @@ letter-spacing: 0.5rem;
 
 
 .about{
-max-width: 800px;
-margin: 120px 0 auto;
+    justify-content: center;
+max-width: 1024px;
+margin: 120px auto;
 
 }
 
@@ -203,7 +204,7 @@ margin-top: 1rem;
     }
 
     .skill-item{
-WIDTH: 230PX;
+width: 230px;
 
     }
 }
@@ -216,7 +217,7 @@ WIDTH: 230PX;
 /* works */
 .works{
 max-width: 900px;
-margin: 120px auto o;
+margin: 120px auto;
 }
 
 .work-list{
